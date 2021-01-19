@@ -1,0 +1,152 @@
+footer .contacts {
+    padding-top: 120px;
+}
+.contacts .wraper {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+}
+.contactHeader {
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.contactHeader h1 {
+    font-family: "Open_Sans_Condensed";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 65px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: white;
+}
+.contactHeader span {
+    color: #D1A954;
+}
+.contactContainer {
+    display: flex;
+    flex-direction: row;
+}
+.containerInfo {
+    margin-right: 110px;
+}
+.containerInfo p {
+    width: 255px;
+    font-family: "Open_Sans_Condensed";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 25px;
+}
+.contactAdress p:last-child {
+    padding-bottom: 0;
+}
+.mailingContainer {
+    max-width: 730px;
+}
+.inputs {
+    display: flex;
+    flex-direction: row;
+}
+.inputs input::placeholder {
+    font-family: "Open_Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    color: #989898;
+}
+.infoInputs input {
+    width: 180px;
+    padding: 10px 15px;
+    height: 35px;
+    border: 1px solid #616161;
+    background-color: #444444;
+    font-family: "Open_Sans";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    color: white;
+}
+.firstInputs input {
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.secondInputs input {
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.messageInput input {
+    padding: 0px 15px;
+    padding-top: 10px;
+    padding-bottom: 70px;
+    padding-right: 130px;
+    border: 1px solid #616161;
+    background-color: #444444;
+    font-family: "Open_Sans";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    color: white;
+}
+.mailingDisc {
+    display: flex;
+    justify-content: space-between;
+}
+.mailingDisc p {
+    width: 390px;
+    font-family: "Open_Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+    color: #989898;
+}
+.mailingDisc button {
+    width: 190px;
+    margin-left: auto;
+    height: 50px;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #D1A954;
+    border: none;
+}
+.copyright {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 10px;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+}
+.copyright span {
+    width: 100%;
+    height: 1px;
+    background-color: #565656;
+    margin-bottom: 30px;
+}
+.copyrightInfo {
+    display: flex;
+    justify-content: space-between;
+}
+.copyrightInfo p {
+    font-family: "Open_Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+    color: #989898;
+    margin-bottom: 30px;
+}
