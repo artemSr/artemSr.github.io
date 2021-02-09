@@ -606,7 +606,7 @@
         max-width: 270px;
     }
     .infoInputs input {
-        width: 127px; /* было 127 */
+        width: 126px; /* было 127 */
         margin-right: 10px;
         margin-bottom: 20px;
         padding: 10px 15px;
